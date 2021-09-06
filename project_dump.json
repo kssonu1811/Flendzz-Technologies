@@ -1,0 +1,113 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$3nmi9Gz7ZeYWbLZJRhkZwi$jNdDqQnk7RzOaUqLHyvVEuMKLqM+nSIDkehWAQlkIlg=",
+        "last_login": "2021-09-06T07:36:44.597Z",
+        "is_superuser": true,
+        "username": "sonu",
+        "first_name": "",
+        "last_name": "",
+        "email": "ksajansonu@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-09-06T07:35:29.650Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8n6w2gkuuu2zt67w3hnslaoinfut3g9g",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlmOfziU9DmDtfbu4gCypTipEHeHSCmgfTPzXiLCtpa4dVrijOIiBnH63RLkB9Ud4B3qrcnc6rrMSe6KPGiXU0N6Xg_376BAL986eyLFPGRUZJxFduiYz4jgHQRkY9mOWSUHKWvtvQWDNiQdaGSvLYn3ByRLOSo:1mN9BM:BZQlt82dnAIPLO8ifHW1vW0g0tMDwSO3b-Pt-xt2iP0",
+        "expire_date": "2021-09-20T07:36:44.599Z"
+    }
+},
+{
+    "model": "flendzz.student",
+    "pk": 1,
+    "fields": {
+        "name": "anshu",
+        "roll_number": "2001",
+        "date_of_birth": "2021-06-18T00:00:00Z",
+        "marks": 85
+    }
+},
+{
+    "model": "flendzz.student",
+    "pk": 2,
+    "fields": {
+        "name": "sajan",
+        "roll_number": "2002",
+        "date_of_birth": "2021-09-15T00:00:00Z",
+        "marks": 53
+    }
+},
+{
+    "model": "flendzz.student",
+    "pk": 3,
+    "fields": {
+        "name": "kumar sajan",
+        "roll_number": "2003",
+        "date_of_birth": "2021-09-16T17:52:00Z",
+        "marks": 67
+    }
+},
+{
+    "model": "flendzz.student",
+    "pk": 5,
+    "fields": {
+        "name": "sonu",
+        "roll_number": "2004",
+        "date_of_birth": "2021-09-16T00:42:00Z",
+        "marks": 93
+    }
+},
+{
+    "model": "flendzz.student",
+    "pk": 6,
+    "fields": {
+        "name": "sanjeev",
+        "roll_number": "2006",
+        "date_of_birth": "2021-09-25T01:52:00Z",
+        "marks": 93
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-09-06T09:58:15.200Z",
+        "user": [
+            "sonu"
+        ],
+        "content_type": [
+            "flendzz",
+            "student"
+        ],
+        "object_id": "1",
+        "object_repr": "anshu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-09-06T09:58:42.498Z",
+        "user": [
+            "sonu"
+        ],
+        "content_type": [
+            "flendzz",
+            "student"
+        ],
+        "object_id": "2",
+        "object_repr": "sajan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
